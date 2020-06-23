@@ -64,7 +64,7 @@ a.btn-oval {
 }
 a.btn-primary,
 .btn-primary {
-  background: #36b843;
+  background: #00bcd4;
   border: none;
   color: #fff;
   text-transform: uppercase;
@@ -75,7 +75,7 @@ a.btn-primary:active,
 .btn-primary:active,
 a.btn-primary:focus,
 .btn-primary:focus {
-  background: #40c74e;
+  background: #00BCD4;
   border: none;
   color: #fff;
   outline: none;
@@ -625,7 +625,7 @@ h1.logo a {
   color: #586A8F;
 }
 .about-section .item-desc .icon {
-  color: #36b843;
+  color: #40C3D4
   margin-right: 5px;
 }
 .about-section .item-desc .subtitle {
@@ -644,7 +644,7 @@ h1.logo a {
   margin-bottom: 10px;
 }
 .about-section .list-custom .fa {
-  color: #36b843;
+  color: #00bcd4;
   margin-right: 5px;
 }
 /* ======= Rewards Section ======= */
@@ -693,7 +693,7 @@ h1.logo a {
 }
 .rewards-section .backers .icon {
   display: block;
-  color: #36b843;
+  color: #00bcd4;
   font-size: 28px;
   margin-bottom: 0px;
 }
@@ -858,7 +858,7 @@ h1.logo a {
   padding-top: 14px;
 }
 .timeline-container .timeline-icon.complete {
-  background: #36b843;
+  background: #00bcd4;
 }
 .timeline-container .timeline-icon .icon {
   color: #fff;
