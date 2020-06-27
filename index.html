@@ -77,7 +77,8 @@
                 <div class="product-holder col-xs-12 col-md-4">
                     <img class="img-responsive product-image" src="assets/images/worksCollection.jpg" alt="">
                 </div><!--//product-holder-->
-				<div class="data-container col-xs-12 col-md-7">
+				
+				<div class="data-container col-xs-12 col-md-7" id="1">
                     <h3 class="heading"><span class="total"><font size="7">C</font></span> <br class="visible-xs-block visible-sm-block">
                         <span class="text">SMT会议聚集了来自中国及海外声音方面的研究人员和音乐家，
 						以分享他们在音乐技术方面的知识和最新工作。本次会议特别增设了声音装置与音乐技术作品展，
@@ -477,6 +478,28 @@
         
     <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
     <script src="assets/js/demo/style-switcher.js"></script>
+	
+	<script type="text/javascript">
+
+	var ua = navigator.userAgent;
+
+	var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+
+	isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+
+	isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+
+	isMobile = isIphone || isAndroid;
+
+	//判断
+
+	if(isMobile){
+		var otherDiv = document.getElementById("1");
+		otherDiv.style.display = "none";
+	}else{
+	}
+
+	</script>
 
     
 </body>
